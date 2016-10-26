@@ -1,0 +1,95 @@
+{
+  "name": "woonli",
+  "version": "1.0.0",
+  "description": "NPM packages for Woonli",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint --silent"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:gitumarkk/remoteam.git"
+  },
+  "author": "Mark Gituma",
+  "license": "ISC",
+  "dependencies": {
+    "asana": "0.9.7",
+    "bluebird": "2.3.0",
+    "d3": "^3.5.17",
+    "eslint": "^2.13.0",
+    "eslint-plugin-meteor": "^3.6.0",
+    "externalify": "0.1.0",
+    "fibers": "^1.0.13",
+    "github": "^1.2.0",
+    "googleapis": "2.1.5",
+    "hopscotch": "^0.2.5",
+    "jira": "^0.9.2",
+    "jira-connector": "^2.3.0",
+    "jquery": "^2.2.4",
+    "lodash": "^4.13.1",
+    "materialize-css": "^0.97.6",
+    "moment": "^2.13.0",
+    "node-trello": "1.1.2",
+    "numeral": "^1.5.3",
+    "oauth": "^0.9.14",
+    "perfect-scrollbar": "^0.6.11",
+    "pickadate": "^3.5.6",
+    "react": "^15.1.0",
+    "react-addons-pure-render-mixin": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "react-user-tour": "^2.2.0",
+    "reactable": "^0.13.2",
+    "request": "2.45.0",
+    "slack-client": "1.4.1",
+    "tween.js": "^16.3.4",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^2.8.0",
+    "eslint-config-airbnb": "^6.2.0",
+    "eslint-plugin-meteor": "^3.4.0",
+    "eslint-plugin-react": "^4.3.0"
+  },
+  "eslintConfig": {
+    "plugins": [
+      "meteor",
+      "react"
+    ],
+    "extends": [
+      "airbnb/base",
+      "plugin:meteor/guide"
+    ],
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "rules": {
+      "indent": 0,
+      "quotes": [
+        0,
+        "double"
+      ],
+      "comma-dangle": [
+        0
+      ],
+      "consistent-return": 0,
+      "func-names": 0,
+      "valid-jsdoc": [
+        "error"
+      ],
+      "array-callback-return": 0,
+      "no-console": 0,
+      "no-alert": 0,
+      "max-len": [
+        "error",
+        150
+      ],
+      "arrow-body-style": [
+        0,
+        "as-needed"
+      ]
+    }
+  }
+}

@@ -1,0 +1,36 @@
+/*header, main, footer {
+    padding-left: 240px;
+  }
+
+  @media only screen and (max-width : 992px) {
+    header, main, footer {
+      padding-left: 0;
+    }
+  }
+
+.side-nav .collapsible-header {
+    height: 3rem;
+    line-height: 3rem;
+}
+
+.btn-medium {
+    height: 24px;
+}
+*/
+
+/*.btn-medium {
+    height: 24px;
+}*/
+
+.home-container {
+    padding: 0 0.5rem;
+    margin: 0 auto;
+    max-width: 100% !important;
+    width: 70%;
+}
+
+.map-container {
+  width: 800px;
+  max-width: 100%;
+  height: 500px;
+}

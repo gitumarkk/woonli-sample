@@ -1,0 +1,6 @@
+private/**/*.js
+client/assets/js/*.js
+client/**/*.js
+client/**/*.jsx
+server/**/*.js
+both/**/*.js

@@ -1,0 +1,8 @@
+*.log
+node_modules/
+settings.local.json
+settings.json
+.demeteorized/
+.vagrant/
+*.pem
+*.pub

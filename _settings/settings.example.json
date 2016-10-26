@@ -1,0 +1,73 @@
+{
+    "public": {
+        "site_url": "",
+        "asana": {
+            "client_id": "",
+            "auth_url": "https://app.asana.com/-/oauth_authorize"
+        },
+
+        "analyticsSettings": {
+            "Google Analytics" : {
+                "trackingId": ""
+            }
+        }
+    },
+    "base": {
+        "siteUrl": ""
+    },
+
+    "asana": {
+        "clientId": "",
+        "clientSecret": "",
+        "redirectPath": "api-connect/asana/"
+    },
+    "bitbucket": {
+        "client_id": "",
+        "client_secret": "",
+        "authorize_url": "https://bitbucket.org/site/oauth2/authorize",
+        "access_token_url": "https://bitbucket.org/site/oauth2/access_token",
+        "redirect_path": "api-connect/bitbucket/"
+    },
+
+    "slack": {
+        "client_id": "",
+        "client_secret": "",
+        "redirect_path": "api-connect/slack/",
+        "baseUrl": "https://slack.com/api/",
+        "authPath": "",
+        "accessTokenPath": "oauth.access",
+        "authorize_url": "https://slack.com/oauth/authorize"
+    },
+
+    "trello": {
+        "clientId": "",
+        "clientSecret": "",
+        "redirectPath": "api-connect/trello/",
+        "baseUrl": "https://trello.com/",
+        "authorizeTokenPath": "1/OAuthAuthorizeToken",
+        "accessTokenPath": "1/OAuthGetAccessToken",
+        "requestToken": "1/OAuthGetRequestToken",
+        "apiURL": "https://api.trello.com"
+    },
+
+    "jira": {
+        "clientId": "",
+        "clientSecret": "",
+        "baseUrl": "https://jira.atlassian.com/",
+        "authorizeUrl": "",
+        "authorizeTokenPath": "",
+        "accessTokenPath": "",
+        "redirectPath": "api-connect/jira/"
+    },
+
+    "mail": {
+        "smtp_password": "",
+        "smtp_login": "",
+        "smtp_full": ""
+    },
+
+    "kadira": {
+        "appId": "",
+        "appSecret": ""
+    }
+}

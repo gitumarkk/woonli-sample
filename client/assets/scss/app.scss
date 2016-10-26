@@ -1,0 +1,58 @@
+.coming-soon-style {
+    background-color:#DFDFDF !important;
+    cursor:default;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.grid .tick {
+    stroke: lightgrey;
+    opacity: 0.7;
+}
+
+.grid path {
+    stroke-width: 0;
+}
+
+
+.arc text {
+  font: 10px sans-serif;
+  text-anchor: middle;
+}
+
+.arc path {
+  stroke: #fff;
+}
+
+.legend {
+    padding: 5px;
+    font: 10px sans-serif;
+    background: yellow;
+    box-shadow: 2px 2px 1px #888;
+}
+
+.tableBorder {
+  table {
+      border-collapse: collapse;
+  }
+
+  table, td{
+      border: 1px solid black;
+  }
+}
+
+.page-footer {
+  a {
+    color: white;
+  }
+
+  h5 {
+    font-weight: 100;
+  }
+}
+
